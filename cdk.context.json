@@ -1,0 +1,45 @@
+{
+  "vpc-provider:account=079523228028:filter.tag:cluster=prague:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0749088282275f3c1",
+    "vpcCidrBlock": "10.0.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0af154336cf9580a1",
+            "cidr": "10.0.0.0/18",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-083e40235ccf029bb"
+          },
+          {
+            "subnetId": "subnet-0e5c6b3f4df4e9a42",
+            "cidr": "10.0.64.0/18",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0d3b3d7e5dbfa129a"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0219454ef6eeee963",
+            "cidr": "10.0.128.0/18",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-06d1a3b7c47b748ac"
+          },
+          {
+            "subnetId": "subnet-07e1019c2a4f22f84",
+            "cidr": "10.0.192.0/18",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-016653a7209b954ed"
+          }
+        ]
+      }
+    ]
+  }
+}
